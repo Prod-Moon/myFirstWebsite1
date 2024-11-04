@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif, Helvetica,;
+}
+body {
+    min-height: 200vh;
+}
+.myHeader {
+    
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color: orange;
+    background-image: url('../img/pexels-photo-673857.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+} 
+nav img {
+    width: 40px;
+    height: 40px;
+}
+ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+ul li a:hover {
+    color: rgb(199, 191, 191);
+}
+ul li a:active {
+    color: red;
+}
+.navBar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 70px;
+    max-width: 1200px;
+}
+.navBar button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(131, 131, 204);
+}
+.navBar button:hover {
+    background-color: rgb(172, 172, 216);
+}
+.navBar button:active {
+    background-color: red;
+}
+.myHeader h1 {
+    padding-top: 150px;
+    font-size: 40px;
+}
+.headerText {
+    padding-bottom: 150px;
+    display: grid;
+    place-content: center;
+}
+.headerText input {
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-size: 15px;
+}
+.copyRight {
+    text-align: right;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+.copyRight a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.copyRight a:hover {
+    color: rgb(199, 191, 191);
+}
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    gap: 35px;
+}
+.mainButton {
+    border: none;
+    outline: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.mainButton a {
+    text-decoration: none;
+    color: black;
+}
+.mainButton:hover { 
+    background-color: rgb(189, 175, 175);
+}
+.mediaText {
+    margin: 40px 25px;
+}
+.mediaText h2 {
+    padding-bottom: 30px;
+}
+.mediaText p {
+    line-height: 25px;
+    font-size: 20px;
+}
+.mediaText .learnMore {
+    padding-top: 20px;
+}
+.mediaText a {
+    text-decoration: none;
+    color: rgb(131, 131, 204);
+}
+.mediaText a:hover {
+    text-decoration: underline;
+}
+.buttonContainer2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 45px;
+    gap: 35px;
+}
+.mainButton2 {
+    background-color: white;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border: 1px solid rgb(167, 161, 161);
+    
+}
+.buttonContainer2 a {
+    text-decoration: none;
+    color: black;
+}
+.mainButton2:hover {
+    outline: 1px solid black;
+}
+.onlinePhotos {
+    padding-top: 50px;
+    font-size: 45px;
+    color: rgb(10, 10, 48);
+    padding-left: 125px;
+}
+.marketPlace {
+    display: flex;
+    gap: 15px;
+    padding-left: 125px;
+    padding-top: 25px;
+}
+.sellPhotos img {
+    padding-left:75px;
+    padding-top: 25px;
+    min-width: 900px;
+}
+.sellPhotosContainer {
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+}
+.eBookBtn {
+    padding: 7px 17px;
+    background-color: rgb(52, 216, 52);
+    border-radius: 4px;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+.eBookBtn:hover {
+    background-color: rgb(96, 228, 96);
+}
+.formContainer {
+    border: 1px solid rgba(51, 18, 104, 0.788);
+    border-radius: 5px;
+    max-width: 550px;
+    min-height: 400px;
+    padding: 40px 20px;
+    background-color: rgba(42, 11, 100, 0.856);
+    color: whitesmoke;
+}
+.formContainer p {
+    text-decoration: underline;
+    padding-bottom: 30px;
+}
+.formContainer input {
+    margin: 10px 0;
+    padding: 4px 8px;
+    font-size: large;
+    border-radius: 9px;
+    min-width: 100%;
+    min-height: 40px;
+}
+.subscribeBtn {
+    margin-top: 40px;
+    padding: 8px 19px;
+    border-radius: 5px;
+    background-color: rgb(52, 216, 52);
+    border: none;
+}
+.subscribeBtn:hover {
+    background-color: rgb(96, 228, 96);
+}
+.mainFormContainer {
+    padding-right: 75px;
+    font-size: larger;
+}
+.eCommerce {
+    padding-left: 150px;
+}
+.eCommerce h3 {
+    margin: 40px 0;
+}
+.eCommerce p {
+    margin-bottom: 30px;
+    line-height: 25px;
+    font-size: 20px;
+}
+.Contents {
+    border: 1px solid gray;
+    padding: 10px 10px;
+    line-height: 25px;
+    font-size: 20px;
+    max-width: 550px;
+    max-height: 250px;
+    margin-right: 20px;
+    margin-top: 55px;
+}
+.Contents a {
+    text-decoration: none;
+}
+.Contents a:hover {
+    text-decoration: underline;
+}
+.contentHide {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.mainCommerce {
+    display: flex;
+    justify-content: space-between;
+}
+.footerContainer {
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footerContainer a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.lastDiv {
+    padding-top: 55px;
+}
+.lastDiv h4 {
+    padding-bottom: 25px;
+    font-size: larger;
+}
+.lastDiv p {
+    padding-bottom: 15px;
+    font-size: medium;
+}
+.footerContainer a:hover {
+    text-decoration: underline;
+    color: rgb(170, 160, 160);
+}
+.mainFooterContainer {
+    margin-top: 60px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(42, 11, 100, 0.856);
+    color: whitesmoke;
+}
+.footerText {
+    margin: 50px 0;
+    text-align: center;
+}
+
+.footerText .privacy {
+    padding-top: 25px;
+}
+.footerText .privacy a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footerText .privacy a:hover {
+    text-decoration: underline;
+    color: rgb(170, 160, 160);
+}
+
